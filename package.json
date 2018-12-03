@@ -1,0 +1,14 @@
+{
+  "name": "ducker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ducker": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "play-sound": "^1.1.2"
+  }
+}
