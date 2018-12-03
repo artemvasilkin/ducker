@@ -1,14 +1,11 @@
 {
   "name": "ducker",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "bin": {
     "ducker": "./index.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodesounds": "^1.7.0"
-  }
+  "license": "ISC"
 }

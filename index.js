@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-var NodeSounds = require('nodesounds')
+const { exec } = require('child_process');
 
-var Sounds = new NodeSounds('.')
-
-Sounds.add('quack','quack.mp3')
-
-Sounds.play('quack')
+exec('afplay quack.mp3', function(err) {})
