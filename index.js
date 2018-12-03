@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 
-const player = require('play-sound')(opts = {})
+var NodeSounds = require('nodesounds')
 
-player.play('quack.mp3', function(err) {
-  if (err) throw err
-})
+var Sounds = new NodeSounds('.')
+
+Sounds.add('quack','quack.mp3')
+
+Sounds.play('quack')

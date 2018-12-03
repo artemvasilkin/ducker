@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "play-sound": "^1.1.2"
+    "nodesounds": "^1.7.0"
   }
 }
