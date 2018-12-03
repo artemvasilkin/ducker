@@ -1,11 +1,32 @@
 {
   "name": "ducker",
-  "version": "3.1.0",
-  "description": "",
+  "version": "3.1.1",
+  "description": "Simple cli tool for playing quack sound.",
+  "keywords": [
+    "duck",
+    "sound",
+    "QA"
+  ],
+  "homepage": "https://github.com/artemvasilkin/ducker",
+  "bugs": {
+    "url": "https://github.com/artemvasilkin/ducker/issues",
+    "email": "artemvasilkin@gmail.com"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Artem Vasilkin",
+    "email": "artemvasilkin@gmail.com",
+    "url": "https://github.com/artemvasilkin"
+  },
   "main": "index.js",
   "bin": {
     "ducker": "./index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/artemvasilkin/ducker.git"
+  },
+  "os": [
+    "!win32"
+  ]
 }
