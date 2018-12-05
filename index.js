@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const { exec } = require('child_process');
+const { play } = require('./src/play')
 
-exec(`afplay ${__dirname}/quack.mp3`, (err) => {});
+play(`${__dirname}/quack.mp3`)
