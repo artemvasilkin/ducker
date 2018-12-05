@@ -1,3 +1,7 @@
+# Ducker 🦆
+
+Simple cli tool for playing quack sound.
+
 ### Installation
 
 ```console
