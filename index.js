@@ -2,4 +2,4 @@
 
 const { exec } = require('child_process');
 
-exec(`afplay ${__dirname}/quack.mp3`, function(err) {})
+exec(`afplay ${__dirname}/quack.mp3`, (err) => {});
