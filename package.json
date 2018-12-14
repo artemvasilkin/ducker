@@ -20,7 +20,8 @@
   },
   "main": "index.js",
   "bin": {
-    "ducker": "./index.js"
+    "ducker": "./scripts/ducker/index.js",
+    "agon": "./scripts/agon/index.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,6 @@
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
-  }
+  },
+  "dependencies": {}
 }
