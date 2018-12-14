@@ -1,6 +1,6 @@
 {
   "name": "ducker",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Simple cli tool for playing quack sound.",
   "keywords": [
     "duck",
